@@ -1,0 +1,28 @@
+.added-locations-modal {
+    display: flex;
+    flex-direction: column;
+}
+.added-locations-title {
+    display: flex;
+    border-bottom: 1px solid black;
+    height: 6rem;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.added-locations-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    list-style-type: none;
+    gap: 1rem;
+    font-weight: 400;
+}
+
+.added-locations-list li:hover {
+    display: inline-block;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: fit-content;
+}

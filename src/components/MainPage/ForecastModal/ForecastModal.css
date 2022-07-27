@@ -1,0 +1,13 @@
+.forecast-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-self: center;
+    margin: 1rem 0rem;
+    overflow-y: scroll;
+}
+
+.forecast-modal .location-name {
+    font-size: 3rem;
+    font-weight: 400;
+}
